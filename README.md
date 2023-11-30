@@ -6,10 +6,15 @@ A project we built to pass a lab in the university about using HTTP protocol, we
 
 The goal of the lab was to learn about connection protocols, so we decided to build a website using the following:
 -Python
+
 -[Flask framework](https://flask.palletsprojects.com/en/3.0.x/) (to implement the back-end)
+
 -[SQLite](https://docs.python.org/3/library/sqlite3.html) in python
+
 -frontend tools(HTML, CSS, JS, Bootstrap, [jinja2](https://flask.palletsprojects.com/en/2.3.x/templating/))
+
 -[TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), and [Numpy](https://numpy.org/) for the face verification (we used the [Facenet](https://github.com/davidsandberg/facenet/tree/master) which's built on [inceptionv1](https://github.com/davidsandberg/facenet/blob/master/src/models/inception_resnet_v1.py) model for feature extraction, without post-training, you can find the Facenet paper [here](https://arxiv.org/pdf/1503.03832.pdf)) 
+
 -[Pytesseract](https://pypi.org/project/pytesseract/) for fake ID scanning
 
 ### Website features
