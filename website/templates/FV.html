@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}take a photo of user{% endblock %} {% block
+content %}
+<div class="container" style="margin-left: -300px; margin-top: 100px;">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+
+            <img src="{{ url_for('auth.video_feed') }}" height="80%" style="border-radius:25px;      box-shadow: -1px 0px 18px 0px white;">
+			<form method="post">
+			<input class="btn btn-primary" type="submit" value="check" name="check" style="margin-top:20px; margin-left:240px"/>
+
+			</form>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
