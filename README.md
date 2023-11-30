@@ -5,6 +5,7 @@ A project we built to pass a lab in the university about using HTTP protocol, we
 ## About the Project 
 
 The goal of the lab was to learn about connection protocols, so we decided to build a website using the following:
+
 -Python
 
 -[Flask framework](https://flask.palletsprojects.com/en/3.0.x/) (to implement the back-end)
@@ -29,7 +30,7 @@ The lab task was a small project about HTTP protocol, but we decided to put some
 
 ## Words of thanks 
 
-For the great sensi [Andrew Ng](https://www.linkedin.com/in/andrewyng/) for the valuable materials we've learned from him in his courses.
+For the great sensi [Andrew Ng](https://www.linkedin.com/in/andrewyng/) for the valuable materials we've learned from his courses on [Coursera](https://www.coursera.org/) and [Deepleaning.ai](https://learn.deeplearning.ai/).
 
 ## Contributing
 
